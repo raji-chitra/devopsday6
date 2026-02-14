@@ -11,7 +11,7 @@ variable "ami_id" {
 
   validation {
     condition     = length(trimspace(var.ami_id)) > 0
-    error_message = "ami-0b6c6ebed2801a5cb"
+    error_message = "ami-0c1fe732b5494dc14"
   }
 }
 variable "existing_key_pair_name" {
